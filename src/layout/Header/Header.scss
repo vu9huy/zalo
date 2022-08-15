@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1943EF;
+    padding: 12px;
+
+    .search-wrap {
+        width: 72%;
+    }
+
+    .icon {
+        box-sizing: content-box;
+        // padding: 12px;
+        width: 40px;
+    }
+}

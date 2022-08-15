@@ -1,0 +1,13 @@
+.choice {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .choice-item {
+        width: 174px;
+        height: 70px;
+    }
+}

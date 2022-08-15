@@ -1,0 +1,36 @@
+.option-card-3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 4px 8px 4px;
+    border-bottom: 1px solid #D1D1D6;
+    background-color: #fff;
+
+    .option-card-3-left {
+        display: flex;
+        justify-content: center;
+        width: 100px;
+    }
+
+    .option-card-3-right {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 4px;
+        width: 100%;
+        height: 100%;
+        padding-left: 12px;
+
+        .option-card-3-right-top {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .option-card-3-right-bottom {}
+    }
+}

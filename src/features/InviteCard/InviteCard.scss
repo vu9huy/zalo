@@ -1,0 +1,23 @@
+.invite-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+
+    .invite-card-left {
+        display: flex;
+        justify-content: center;
+        min-width: 52px;
+    }
+
+    .invite-card-right {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 12px;
+    }
+}
